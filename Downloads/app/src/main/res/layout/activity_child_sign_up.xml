@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    tools:context="net.simplifiedlearning.firebaseauth.MainActivity"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_height="100dp"
+            android:layout_width="85dp"
+            android:background="@drawable/pocketpapa"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary">
+
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp">
+
+            <EditText
+                android:id="@+id/editTextChildSUEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingBottom="15dp"
+                android:textColorHint="#000000" />
+
+
+            <EditText
+                android:id="@+id/editTextChildSUUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:inputType="textEmailAddress"
+                android:paddingBottom="15dp"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/editTextChildSUPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingBottom="15dp"
+                android:textColorHint="#000000" />
+
+            <Button
+                android:id="@+id/childbuttonsignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textViewChildLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Already have a child account? Sign in now"
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#000000" />
+
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/progressbar"
+            android:visibility="gone"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

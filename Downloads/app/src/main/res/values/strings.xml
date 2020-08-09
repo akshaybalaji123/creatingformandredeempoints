@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pocket Papa</string>
+    <array name="point_value">
+        <item>1 point</item>
+        <item>2 point</item>
+        <item>3 point</item>
+        <item>4 point</item>
+        <item>5 point</item>
+    </array>
+</resources>

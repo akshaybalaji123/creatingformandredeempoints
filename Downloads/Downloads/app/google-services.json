@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "575668408226",
+    "firebase_url": "https://pocket-papa-2c8d6.firebaseio.com",
+    "project_id": "pocket-papa-2c8d6",
+    "storage_bucket": "pocket-papa-2c8d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575668408226:android:1348f7087fc1e61899ecfb",
+        "android_client_info": {
+          "package_name": "net.simplifiedlearning.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575668408226-3e7ih01ik2vebgb0kqsv8dbc6upcqhv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.simplifiedlearning.firebaseauth",
+            "certificate_hash": "66bfe0e846961f6796cce686c55e0cdc8d4bd593"
+          }
+        },
+        {
+          "client_id": "575668408226-meul6dhpl99q5l68k781num32d0m0uvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3qZo5eoP_GHKdE_iFIaLVr1-_XDew8Qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575668408226-meul6dhpl99q5l68k781num32d0m0uvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
